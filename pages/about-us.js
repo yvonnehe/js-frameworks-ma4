@@ -1,4 +1,5 @@
 import Heading from "../components/Heading";
+import Image from "next/image";
 
 const AboutUs = () => {
   return (
@@ -13,6 +14,7 @@ const AboutUs = () => {
         in consequat massa gravida. Sed arcu sem, vulputate sit amet euismod in,
         efficitur sit amet nunc. Curabitur condimentum fermentum pharetra.
       </p>
+      <Image src="/totoro.jpeg" alt="Totoro" width={800} height={500} />
     </>
   );
 };
