@@ -6,7 +6,11 @@ const Results = (props) => {
     <>
       <Heading heading="Results" />
       {props.movies.map((movie) => {
-        return <h3 key={movie.id}>{movie.title}</h3>;
+        return (
+          <h3 key={movie.id}>
+            {movie.title} {movie.original_title}
+          </h3>
+        );
       })}
     </>
   );
