@@ -5,9 +5,8 @@ const Layout = ({ children }) => {
     <>
       <nav>
         <div>
-          <Link href="/">Home</Link>
-          <Link href="/about-us">About us</Link>
-          <Link href="/results">Results</Link>
+          | <Link href="/">Home</Link> | <Link href="/about-us">About us</Link>{" "}
+          | <Link href="/results">Results</Link>
         </div>
       </nav>
       {children}
